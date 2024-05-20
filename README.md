@@ -27,7 +27,7 @@ State Table :
 •	"Red", "Yellow", and "Green" denote the states of the traffic lights.
 •	The counter counts from 0 to 9, where each count corresponds to one clock cycle.
 Code: 
-module traffic_light_controller (
+module proj (
     input clk,          // Clock input
     input reset,        // Reset input
     output reg red_MR1, // Red signal for main road 1
@@ -154,6 +154,7 @@ always @(state) begin
 end
 
 endmodule
+
 
 RTL Schematic View
 ![image](https://github.com/RHUDHRESH/Project-based-expt./assets/74451692/d36f278f-247c-4045-a969-7e21fc44b520)
